@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function UIElements() {
   return (
@@ -9,18 +10,24 @@ function UIElements() {
         </h1>
         <hr />
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
-          <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
+          <NavLink
+            to="/Layouts"
+            className="p-2 border rounded-md text-lg text-center font-semibold hover:bg-gray-700 hover:text-white"
+          >
             Layouts
-          </button>
+          </NavLink>
           <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
             Login Page
           </button>
           <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
             Navs
           </button>
-          <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
+          <NavLink
+            to="/ButtonPage"
+            className="p-2 border rounded-md text-lg text-center font-semibold hover:bg-gray-700 hover:text-white"
+          >
             Buttons
-          </button>
+          </NavLink>
           <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
             Cards
           </button>
