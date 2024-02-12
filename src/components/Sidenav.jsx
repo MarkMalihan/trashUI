@@ -18,6 +18,7 @@ function Sidenav({ isOpen, ToggleSidebar }) {
   const isHomeActive = useMatch("/");
   const isLayoutsActive = useMatch("/Layouts");
   const isButtonPageActive = useMatch("/ButtonPage");
+  const isCardPageActive = useMatch("/CardPage");
 
   return (
     <>
@@ -90,9 +91,9 @@ function Sidenav({ isOpen, ToggleSidebar }) {
             </li>
             <li>
               <NavLink
-                to="/"
+                to="/CardPage"
                 className={`p-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-green-400 ${
-                  isHomeActive ? "bg-gray-700" : ""
+                  isCardPageActive ? "bg-gray-700" : ""
                 }`}
               >
                 <span className="text-[15px] ml-4 text-gray-200 font-bold">

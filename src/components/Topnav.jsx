@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 function Topnav({ ToggleSidebar }) {
   return (
     <>
-      <div className="hidden md:block">
-        <nav className="sticky top-0 z-10 p-3 bg-gray-800 flex items-center justify-between">
+      <div className="hidden md:block sticky top-0  z-10">
+        <nav className=" p-3 bg-gray-800 flex items-center justify-between">
           <NavLink to="/" className="text-xl text-white font-bold">
             trashUI
           </NavLink>
@@ -25,8 +25,8 @@ function Topnav({ ToggleSidebar }) {
         </nav>
       </div>
 
-      <div className="block md:hidden">
-        <nav className="sticky top-0 z-10 p-3 bg-gray-800 flex items-center justify-between">
+      <div className="block md:hidden sticky top-0 z-10">
+        <nav className=" p-3 bg-gray-800 flex items-center justify-between">
           <NavLink to="/" className="text-xl text-white font-bold">
             trashUI
           </NavLink>

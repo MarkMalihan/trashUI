@@ -28,9 +28,12 @@ function UIElements() {
           >
             Buttons
           </NavLink>
-          <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
+          <NavLink
+            to="/CardPage"
+            className="p-2 border rounded-md text-lg text-center font-semibold hover:bg-gray-700 hover:text-white"
+          >
             Cards
-          </button>
+          </NavLink>
           <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
             Inputs
           </button>

@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Topnav from "./components/Topnav";
 import Sidenav from "./components/Sidenav";
 import ButtonPage from "./pages/ButtonPage";
+import CardPage from "./pages/CardPage";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function MainContent() {
         <Route path="/" element={<Home />} />
         <Route path="/Layouts" element={<Layouts />} />
         <Route path="/ButtonPage" element={<ButtonPage />} />
+        <Route path="/CardPage" element={<CardPage />} />
       </Routes>
       <Footer />
     </>
