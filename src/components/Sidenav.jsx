@@ -17,7 +17,7 @@ function Sidenav({ isOpen, ToggleSidebar }) {
 
   const isHomeActive = useMatch("/");
   const isLayoutsActive = useMatch("/Layouts");
-  const isButtonPagesActive = useMatch("/ButtonPage");
+  const isButtonPageActive = useMatch("/ButtonPage");
 
   return (
     <>
@@ -80,7 +80,7 @@ function Sidenav({ isOpen, ToggleSidebar }) {
               <NavLink
                 to="/ButtonPage"
                 className={`p-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-green-400 ${
-                  isHomeActive ? "bg-gray-700" : ""
+                  isButtonPageActive ? "bg-gray-700" : ""
                 }`}
               >
                 <span className="text-[15px] ml-4 text-gray-200 font-bold">
