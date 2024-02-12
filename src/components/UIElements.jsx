@@ -7,6 +7,7 @@ function UIElements() {
         <h1 className="text-xl text-black/80 font-bold">
           UI Elements/Components
         </h1>
+        <hr />
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
           <button className="p-2 border rounded-md text-lg font-semibold hover:bg-gray-700 hover:text-white">
             Navs
