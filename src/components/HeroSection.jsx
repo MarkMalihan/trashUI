@@ -13,7 +13,10 @@ function HeroSection() {
 
         <hr />
         <p className="text-lg text-black/70 font-semibold">
-          Trash Code, Trash Design
+          Collection of <span className="line-through">trash</span>
+          <span className="line-through"> simple</span>
+          <span className="font-bold">TRASH</span> UI components (using Tailwind
+          CSS).
         </p>
       </section>
     </>
