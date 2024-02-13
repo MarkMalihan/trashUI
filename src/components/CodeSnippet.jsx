@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { grayscale } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function CodeSnippet({ snippets }) {
@@ -30,7 +30,7 @@ function CodeSnippet({ snippets }) {
 
           <section className="p-3 space-y-3 border bg-gray-800 rounded-md">
             <div className="flex items-center justify-between">
-              <h1 className="text-white">{`${snippet.label} Code`}</h1>
+              <h1 className="text-white">{`${snippet.label}`}</h1>
               {/* Copy Button */}
               <CopyToClipboard
                 text={snippet.code}
@@ -44,7 +44,7 @@ function CodeSnippet({ snippets }) {
 
             <SyntaxHighlighter
               language="javascript"
-              style={atomOneDark}
+              style={grayscale}
               wrapLongLines={true}
             >
               {snippet.code}

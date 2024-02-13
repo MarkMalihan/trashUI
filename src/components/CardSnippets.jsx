@@ -11,13 +11,13 @@ const CardSnippets = [
       />
     </div>
     <div>
-      <h1 className="text-xl text-black/80 font-bold">Title</h1>
-      <p className="text-black/60">Subtitle</p>
+      <h1 className="text-2xl text-black/80 font-bold">trashUI</h1>
+      <p className="text-black/60">Collection of trash UI components</p>
     </div>
   </section>`,
     component: (
       <>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <section className="p-2 space-y-5 bg-white border-2 border-black rounded-md">
             <div className="container p-2 border">
               <img
@@ -28,8 +28,8 @@ const CardSnippets = [
               />
             </div>
             <div>
-              <h1 className="text-xl text-black/80 font-bold">Title</h1>
-              <p className="text-black/60">Subtitle</p>
+              <h1 className="text-2xl text-black/80 font-bold">trashUI</h1>
+              <p className="text-black/60">Collection of trash UI components</p>
             </div>
           </section>
         </div>
@@ -39,17 +39,21 @@ const CardSnippets = [
   {
     label: "Card #2",
     code: `<section className="container p-5 bg-white border rounded-md shadow-md space-y-5 mx-auto">
-    <h1 className="text-4xl text-black/80 font-bold">Headline</h1>
+    <h1 className="text-4xl text-black/80 font-bold">trashUI</h1>
     <hr />
-    <p className="text-lg text-black/70 font-semibold">Subheadline</p>
+    <p className="text-lg text-black/70 font-semibold">
+      Collection of trash UI components
+    </p>
   </section>`,
     component: (
       <>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <section className="container p-5 bg-white border rounded-md shadow-md space-y-5 mx-auto">
-            <h1 className="text-4xl text-black/80 font-bold">Headline</h1>
+            <h1 className="text-4xl text-black/80 font-bold">trashUI</h1>
             <hr />
-            <p className="text-lg text-black/70 font-semibold">Subheadline</p>
+            <p className="text-lg text-black/70 font-semibold">
+              Collection of trash UI components
+            </p>
           </section>
         </div>
       </>
@@ -61,19 +65,19 @@ const CardSnippets = [
     <img width="48" height="48" src="/trashUI-logo.png" alt="trash" />
     <div className="w-full space-y-3">
       <h1 className="text-xl text-black/80 font-bold">trashUI</h1>
-      <p className="text-gray-500">"Collection of Components"</p>
+      <p className="text-gray-500">Collection of trash UI components</p>
       <hr />
       <p className="text-gray-800">2024</p>
     </div>
   </section>`,
     component: (
       <>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <section className="flex items-center gap-10 p-5 bg-gray-100 hover:bg-teal-50 hover:scale-105 duration-300 rounded-md shadow-md">
             <img width="48" height="48" src="/trashUI-logo.png" alt="trash" />
             <div className="w-full space-y-3">
               <h1 className="text-xl text-black/80 font-bold">trashUI</h1>
-              <p className="text-gray-500">"Collection of Components"</p>
+              <p className="text-gray-500">Collection of trash UI components</p>
               <hr />
               <p className="text-gray-800">2024</p>
             </div>
@@ -85,7 +89,7 @@ const CardSnippets = [
   {
     label: "Card #4 (Transparent)",
     code: `<section className="p-3 border rounded-md space-y-3 hover:scale-105 duration-300">
-    <h1 className="text-2xl text-black/80 font-bold">April 2023</h1>
+    <h1 className="text-2xl text-black/80 font-bold">trashUI</h1>
     <hr />
     <p className="text-gray-500">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -96,9 +100,9 @@ const CardSnippets = [
   </section>`,
     component: (
       <>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <section className="p-3 border rounded-md space-y-3 hover:scale-105 duration-300">
-            <h1 className="text-2xl text-black/80 font-bold">April 2023</h1>
+            <h1 className="text-2xl text-black/80 font-bold">trashUI</h1>
             <hr />
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
